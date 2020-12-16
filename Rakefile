@@ -12,7 +12,7 @@ end
 
 namespace :db do
   desc 'migrate changes to your database'
-  take :migrate => :environment do
+  tase :migrate => :environment do
     Student.create_table
   end
 end
